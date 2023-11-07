@@ -1,2 +1,2 @@
 # rsschool-cv
-https://xelen.github.io/rsschool-cv/cv
+https://xelen.github.io/rsschool-cv/
