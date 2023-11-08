@@ -1,9 +1,9 @@
-# Jekaterina Belkovica
+# Jekaterina Ivanova
 
 ### Webmaster
 
 ### Contact information:
-**Phone:** +371 25992884  
+**Phone:** +371 25944884
 **E-mail:** safeboot@inbox.lv  
 **Telegram:** @xewo  
 **Discord:** Satin  
