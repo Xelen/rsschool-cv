@@ -9,11 +9,7 @@
 **Discord:** Satin  
 
 ### Professional Summary:
-I embarked on my career as a designer, where I played a pivotal role in the creative process for a small advertising company. My journey led me to discover a profound passion for web development, prompting my deep dive into the world of popular content management systems, including Opencart, Wordpress, and Joomla. With an impressive 15-year trajectory in this field, I've evolved into a versatile professional, equipped with a wealth of skills and knowledge.
-
 My expertise spans graphic design and web design, and I have become adept at leveraging these skills to create engaging and visually appealing online experiences. My proficiency extends to content management systems, where I've built a strong foundation and a track record of successful projects.
-
-While I currently possess a basic level of programming proficiency, I have a firm grasp of coding principles and a strong eagerness to advance my programming capabilities. I am committed to staying at the forefront of the ever-evolving web development landscape and excited about the potential for future growth in this dynamic field.
 
 ### Key Skills:
 * Graphic Design
