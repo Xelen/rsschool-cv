@@ -1,4 +1,4 @@
-# Jekaterina Ivanova
+# Katerina Ivanova
 
 ### Webmaster
 
