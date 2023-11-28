@@ -3,7 +3,7 @@
 ### Webmaster
 
 ### Contact information:
-**Phone:** +371 25944884
+**Phone:** 25944884
 **E-mail:** safeboot@inbox.lv  
 **Telegram:** @xewo  
 **Discord:** Satin  
