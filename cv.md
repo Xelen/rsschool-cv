@@ -9,7 +9,7 @@
 **Discord:** Satin  
 
 ### Professional Summary:
-My expertise spans graphic design and web design, and I have become adept at leveraging these skills to create engaging and visually appealing online experiences. My proficiency extends to content management systems, where I've built a strong foundation and a track record of successful projects.
+My expertise spans graphic design and web design, and I have become adept at leveraging these skills to create engaging and visually appealing online experiences.
 
 ### Key Skills:
 * Graphic Design
