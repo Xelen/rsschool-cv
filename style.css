@@ -9,9 +9,11 @@ body {
 }
 .wrapper {
   width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 .container {
-  max-width: 1130px;
+  max-width: 1000px;
   width: 100%;
   margin-right: auto;
   margin-left: auto;
@@ -19,22 +21,18 @@ body {
   padding-right: 15px;
 }
 section {
-  padding: 200px;
+  padding: 20px;
 }
 .left .photo img {
   width: 250px;
+  border-radius: 100%;
 }
-@media (min-width: 1200px) {
-  .left {
-    position: fixed;
-    left: 20px;
-    top: 50%;
-    transform: translateY(-50%);
-    z-index: 10;
-    max-width: 300px;
-    min-width: 300px;
-    margin: 0;
-    margin-top: 0px;
-    margin-top: 0;
-  }
+main {
+  display: flex;
+}
+.info {
+  position: fixed;
+}
+.content {
+  margin-left: 300px;
 }
