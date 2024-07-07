@@ -1,2 +1,3 @@
 # rsschool-cv
+https://xelen.github.io/rsschool-cv/cv<br>
 https://xelen.github.io/rsschool-cv/
