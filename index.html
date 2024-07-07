@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css">
   </head>
 
   <body>
@@ -13,24 +13,29 @@
         <header>
           <div class="row">
             <nav>
-              <ul>
-                <li>About</li>
-                <li>Contact</li>
-                <li>Key Skills</li>
-                <li>Courses</li>
-                <li>Code example</li>
-                <li>Projects</li>
-                <li>Languages</li>
+              <ul class="menu">
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#skills">Key Skills</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#code">Code example</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#languages">Languages</a></li>
               </ul>
             </nav>
           </div>
         </header>
-        <h1>Curriculum vitae</h1>
+
         <main>
           <div class="left">
             <div class="info">
+              <h1>Curriculum vitae</h1>
+
+              <div class="photo">
+                <img src="imgs/kate.png" alt="Katerina Ivanova">
+              </div>
               <div class="name"><h2>Katerina Ivanova</h2></div>
-              <div class="photo"><img src="imgs/kate.png" alt="" /></div>
               <div class="profession"><h3>Webmaster</h3></div>
             </div>
           </div>
@@ -38,32 +43,59 @@
             <section id="about">
               <h2>About</h2>
               <div class="container">
-                I embarked on my career as a designer, where I played a pivotal
-                role in the creative process for a small advertising company. My
-                journey led me to discover a profound passion for web
-                development, prompting my deep dive into the world of popular
-                content management systems, including Opencart, Wordpress, and
-                Joomla. With an impressive 15-year trajectory in this field,
-                I've evolved into a versatile professional, equipped with a
-                wealth of skills and knowledge. My expertise spans graphic
-                design and web design, and I have become adept at leveraging
-                these skills to create engaging and visually appealing online
-                experiences. My proficiency extends to content management
-                systems, where I've built a strong foundation and a track record
-                of successful projects. While I currently possess a basic level
-                of programming proficiency, I have a firm grasp of coding
-                principles and a strong eagerness to advance my programming
-                capabilities. I am committed to staying at the forefront of the
-                ever-evolving web development landscape and excited about the
-                potential for future growth in this dynamic field.
+                <p>
+                  I embarked on my career as a designer, where I played a
+                  pivotal role in the creative process for a small advertising
+                  company.
+                </p>
+                <p>
+                  My journey led me to discover a profound passion for web
+                  development, prompting my deep dive into the world of popular
+                  content management systems, including Opencart, Wordpress, and
+                  Joomla.
+                </p>
+                <p>
+                  With an impressive 15-year trajectory in this field, I've
+                  evolved into a versatile professional, equipped with a wealth
+                  of skills and knowledge.
+                </p>
+                <p>
+                  My expertise spans graphic design and web design, and I have
+                  become adept at leveraging these skills to create engaging and
+                  visually appealing online experiences. My proficiency extends
+                  to content management systems, where I've built a strong
+                  foundation and a track record of successful projects.
+                </p>
+                <p>
+                  While I currently possess a basic level of programming
+                  proficiency, I have a firm grasp of coding principles and a
+                  strong eagerness to advance my programming capabilities.
+                </p>
+                <p>
+                  I am committed to staying at the forefront of the
+                  ever-evolving web development landscape and excited about the
+                  potential for future growth in this dynamic field.
+                </p>
               </div>
             </section>
             <section id="contact">
               <h2>Contact</h2>
               <div class="container">
                 <ul>
-                  <li>E-mail: safeboot@inbox.lv</li>
-                  <li>Telegram: @xqewo</li>
+                  <li>
+                    E-mail:
+                    <a href="mailto:safeboot@inbox.lv">safeboot@inbox.lv</a>
+                  </li>
+                  <li>
+                    Github:
+                    <a href="https://github.com/Xelen" target="_blank">Xelen</a>
+                  </li>
+                  <li>
+                    Telegram:
+                    <a href="https://t.me/wetheythem" target="_blank"
+                      >@wetheythem</a
+                    >
+                  </li>
                   <li>Discord: Satin</li>
                 </ul>
               </div>
@@ -93,26 +125,24 @@
                     RS Schools Course «JavaScript/Front-end. Stage 0» (in
                     progress)
                   </li>
-                  <li>
-                    Полный курс по JavaScript + React - с нуля до результата (in
-                    progress)
-                  </li>
                 </ul>
               </div>
             </section>
             <section id="code">
               <h2>Code example</h2>
               <div class="container">
-                This jQuery code was employed in one of my projects for an
-                e-commerce website. The code's purpose is to remove a block with
-                the class '.selected-card' (which contains the results of
-                selected product filter options) and then search for a block
-                with the class '.group' on the page. Subsequently, it adds the
-                '.selected-card' block before it.
-                <code
-                  >var filterResult = $('.selected-card').remove();
-                  $('.group').before(filterResult);</code
-                >
+                <p>
+                  This jQuery code was employed in one of my projects for an
+                  e-commerce website. The code's purpose is to remove a block
+                  with the class '.selected-card' (which contains the results of
+                  selected product filter options) and then search for a block
+                  with the class '.group' on the page. Subsequently, it adds the
+                  '.selected-card' block before it.
+                </p>
+                <pre><code>
+var filterResult = $('.selected-card').remove();
+$('.group').before(filterResult);</code>
+              </pre>
               </div>
             </section>
 
@@ -120,14 +150,37 @@
               <h2>Projects</h2>
               <div class="container">
                 <ul>
-                  <li>RS Schools Course «JavaScript/Front-end. Stage 1»</li>
                   <li>
-                    RS Schools Course «JavaScript/Front-end. Stage 0» (in
-                    progress)
+                    <a
+                      href="https://rolling-scopes-school.github.io/xelen-JSFE2023Q4/coffee-house/"
+                      target="_blank"
+                      >Coffee House</a
+                    >
                   </li>
                   <li>
-                    Полный курс по JavaScript + React - с нуля до результата (in
-                    progress)
+                    <a
+                      href="https://rolling-scopes-school.github.io/xelen-JSFE2023Q4/hangman/hg-app.html"
+                      target="_blank"
+                      >Hangman</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://rolling-scopes-school.github.io/xelen-JSFE2023Q4/nonograms/cells-app.html"
+                      target="_blank"
+                      >Nonograms</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </section>
+            <section id="education">
+              <h2>Education</h2>
+              <div class="container">
+                <ul>
+                  <li>
+                    University of Latvia - Faculty of Business, Management and
+                    Economics
                   </li>
                 </ul>
               </div>
@@ -144,7 +197,22 @@
             </section>
           </div>
         </main>
-        <footer>Xelena</footer>
+        <footer>
+          <div class="footer-container">
+            <div class="footer-block">© 2024 by Xelen</div>
+            <div class="footer-block">
+              <a href="https://github.com/Xelen" target="_blank">My github</a>
+            </div>
+            <div class="footer-block">
+              <a href="https://rs.school/courses/javascript-ru" target="_blank"
+                ><img
+                  src="imgs/rs-school-logo.svg"
+                  alt="Rs Shool logo"
+                  width="100"
+              ></a>
+            </div>
+          </div>
+        </footer>
       </div>
     </div>
   </body>
