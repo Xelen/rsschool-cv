@@ -4,7 +4,6 @@
 
 ### Contact information:
 
-**Phone:** +371 25944884<br>
 **E-mail:** safeboot@inbox.lv<br>
 **Telegram:** @xqewo<br>
 **Discord:** Satin
