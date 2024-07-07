@@ -1,16 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Open sans', sans-serif;
   font-size: 16px;
   scroll-behavior: smooth;
-  color: #999999;
+  color: #cbcbcb;
   background: #1f1f1f;
   line-height: 1.7;
   overflow-x: hidden;
 }
 .wrapper {
+  background-color: #393939;
   width: 100%;
   max-width: 1440px;
   margin: 0 auto;
+  padding: 30px;
 }
 .container {
   max-width: 1000px;
@@ -23,6 +31,15 @@ body {
 section {
   padding: 20px;
 }
+h1,
+h2,
+h3 {
+  padding-left: 15px;
+  margin: 0 0 10px;
+}
+h2 {
+  font-size: 26px;
+}
 .left .photo img {
   width: 250px;
   border-radius: 100%;
@@ -33,6 +50,65 @@ main {
 .info {
   position: fixed;
 }
-.content {
-  margin-left: 300px;
+.left {
+  width: 300px;
+  margin-top: 12px;
+}
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.menu li {
+  margin-right: 20px;
+}
+
+.menu li:last-child {
+  margin-right: 0;
+}
+a {
+  color: #dda0dd;
+  text-decoration: none;
+}
+a:hover {
+  color: #fff;
+}
+.menu a {
+  font-weight: 600;
+  font-size: 15px;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.footer-block {
+  flex: 1;
+  text-align: center;
+}
+.footer-block:first-child {
+  text-align: left;
+}
+.footer-block:last-child {
+  text-align: right;
+}
+pre {
+  background-color: #2d2d2d;
+  color: #f8f8f2;
+  padding: 15px;
+  border-radius: 5px;
+  overflow: auto;
+  margin-left: 0;
+  text-align: left;
+  white-space: pre-wrap; /* This ensures that long lines will wrap */
+}
+
+code {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
 }
