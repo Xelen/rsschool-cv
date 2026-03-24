@@ -112,3 +112,17 @@ code {
   font-family: 'Courier New', Courier, monospace;
   font-size: 14px;
 }
+
+.photo img {
+  transition: transform 3s ease-in-out;
+}
+
+.photo img.animate {
+  animation: zoomInOut 6s ease-in-out infinite;
+}
+
+@keyframes zoomInOut {
+  0%   { transform: scale(1); }
+  50%  { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}

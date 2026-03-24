@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Web Developer CV</title>
     <link rel="stylesheet" href="style.css">
   </head>
 
@@ -43,39 +43,13 @@
             <section id="about">
               <h2>About</h2>
               <div class="container">
-                <p>
-                  I embarked on my career as a designer, where I played a
-                  pivotal role in the creative process for a small advertising
-                  company.
-                </p>
-                <p>
-                  My journey led me to discover a profound passion for web
-                  development, prompting my deep dive into the world of popular
-                  content management systems, including Opencart, Wordpress, and
-                  Joomla.
-                </p>
-                <p>
-                  With an impressive 15-year trajectory in this field, I've
-                  evolved into a versatile professional, equipped with a wealth
-                  of skills and knowledge.
-                </p>
-                <p>
-                  My expertise spans graphic design and web design, and I have
-                  become adept at leveraging these skills to create engaging and
-                  visually appealing online experiences. My proficiency extends
-                  to content management systems, where I've built a strong
-                  foundation and a track record of successful projects.
-                </p>
-                <p>
-                  While I currently possess a basic level of programming
-                  proficiency, I have a firm grasp of coding principles and a
-                  strong eagerness to advance my programming capabilities.
-                </p>
-                <p>
-                  I am committed to staying at the forefront of the
-                  ever-evolving web development landscape and excited about the
-                  potential for future growth in this dynamic field.
-                </p>
+                <p>I started my career in design, working on creative projects in a small advertising agency. That’s where I learned to think visually and build ideas that actually work.</p>
+
+                <p>Over time, I discovered a strong passion for web development and moved into building websites with platforms like OpenCart, WordPress, and Joomla.</p>
+
+                <p>With 15+ years of experience, I’ve grown into a well-rounded specialist who combines design and development to create clean, effective, and user-friendly solutions.</p>
+
+                <p>I continuously improve my programming skills and enjoy solving real problems, optimizing workflows, and building products that not only look good but perform well.</p>
               </div>
             </section>
             <section id="contact">
@@ -135,20 +109,25 @@
               <h2>Code example</h2>
               <div class="container">
                 <p>
-                  This jQuery code was employed in one of my projects for an
-                  e-commerce website. The code's purpose is to remove a block
-                  with the class '.selected-card' (which contains the results of
-                  selected product filter options) and then search for a block
-                  with the class '.group' on the page. Subsequently, it adds the
-                  '.selected-card' block before it.
+                  This small JavaScript snippet adds a smooth scroll effect when clicking on anchor links. It improves navigation and creates a more polished user experience.
                 </p>
+
+                <p>
+                  Instead of jumping instantly, the page scrolls smoothly to the selected section, making interactions feel more natural.
+                </p>
+
                 <pre><code>
-var filterResult = $('.selected-card').remove();
-$('.group').before(filterResult);</code>
-              </pre>
+            document.querySelectorAll('a[href^="#"]').forEach(link => {
+              link.addEventListener('click', function(e) {
+                e.preventDefault();
+
+                const target = document.querySelector(this.getAttribute('href'));
+                target?.scrollIntoView({ behavior: 'smooth' });
+              });
+            });
+                </code></pre>
               </div>
             </section>
-
             <section id="projects">
               <h2>Projects</h2>
               <div class="container">
@@ -267,5 +246,9 @@ $('.group').before(filterResult);</code>
         </footer>
       </div>
     </div>
+    <script>
+      const img = document.querySelector('.photo img');
+      img.classList.add('animate');
+    </script>
   </body>
 </html>
