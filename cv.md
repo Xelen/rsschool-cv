@@ -10,11 +10,13 @@
 
 ### Professional Summary:
 
-I embarked on my career as a designer, where I played a pivotal role in the creative process for a small advertising company. My journey led me to discover a profound passion for web development, prompting my deep dive into the world of popular content management systems, including Opencart, Wordpress, and Joomla. With an impressive 15-year trajectory in this field, I've evolved into a versatile professional, equipped with a wealth of skills and knowledge.
+I started my career in design, working on creative projects in a small advertising agency. That’s where I learned to think visually and build ideas that actually work.
 
-My expertise spans graphic design and web design, and I have become adept at leveraging these skills to create engaging and visually appealing online experiences. My proficiency extends to content management systems, where I've built a strong foundation and a track record of successful projects.
+Over time, I discovered a strong passion for web development and moved into building websites with platforms like OpenCart, WordPress, and Joomla.
 
-While I currently possess a basic level of programming proficiency, I have a firm grasp of coding principles and a strong eagerness to advance my programming capabilities. I am committed to staying at the forefront of the ever-evolving web development landscape and excited about the potential for future growth in this dynamic field.
+With 15+ years of experience, I’ve grown into a well-rounded specialist who combines design and development to create clean, effective, and user-friendly solutions.
+
+I continuously improve my programming skills and enjoy solving real problems, optimizing workflows, and building products that not only look good but perform well.
 
 ### Key Skills:
 
@@ -24,20 +26,48 @@ While I currently possess a basic level of programming proficiency, I have a fir
 - Figma
 - Adobe Photoshop
 - Adobe Illustrator
+- JS, PHP, MySQL
 
 ### Code example:
 
-This jQuery code was employed in one of my projects for an e-commerce website. The code's purpose is to remove a block with the class '.selected-card' (which contains the results of selected product filter options) and then search for a block with the class '.group' on the page. Subsequently, it adds the '.selected-card' block before it.
+This small JavaScript snippet adds a smooth scroll effect when clicking on anchor links. It improves navigation and creates a more polished user experience.
+
+Instead of jumping instantly, the page scrolls smoothly to the selected section, making interactions feel more natural.
 
 ```
-var filterResult = $('.selected-card').remove();
-$('.group').before(filterResult);
+document.querySelectorAll('a[href^="#"]').forEach(link => {
+  link.addEventListener('click', function(e) {
+  e.preventDefault();
+
+  const target = document.querySelector(this.getAttribute('href'));
+  target?.scrollIntoView({ behavior: 'smooth' });
+  });
+});
+
 ```
 
 ### Courses:
 
-- RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
-- Полный курс по JavaScript + React - с нуля до результата (in progress)
+- RS Schools Course «JavaScript/Front-end 2023. Stage 1»
+- RS Schools Course «JavaScript/Front-end 2024. Stage 0»
+- RS Schools Course «JavaScript/Front-end 2024. Stage 1»
+
+### Projects
+
+- [Coffee House Shop](https://rolling-scopes-school.github.io/xelen-JSFE2023Q4/coffee-house/)
+- [Hangman Game](https://rolling-scopes-school.github.io/xelen-JSFE2023Q4/hangman/hg-app.html)
+- [Nonograms Game - 2023](https://rolling-scopes-school.github.io/xelen-JSFE2023Q4/nonograms/cells-app.html)
+- [Nonograms Game - 2024](https://rolling-scopes-school.github.io/xelen-JSFE2024Q4/nonograms/)
+- [Christmas Shop](https://rolling-scopes-school.github.io/xelen-JSFE2024Q4/christmas-shop/)
+- [Shelter Shop](https://rolling-scopes-school.github.io/xelen-JSFEPRESCHOOL2024Q2/shelter/)
+- [Audio Player](https://rolling-scopes-school.github.io/xelen-JSFEPRESCHOOL2024Q2/audio-player/)
+- [Image Gallery](https://rolling-scopes-school.github.io/xelen-JSFEPRESCHOOL2024Q2/image-gallery/)
+- [Simon Says Game](https://rolling-scopes-school.github.io/xelen-JSFE2024Q4/simon-says/)
+- [Random Game](https://rolling-scopes-school.github.io/xelen-JSFEPRESCHOOL2024Q2/random-game/)
+
+### Education:
+
+- University of Latvia - Faculty of Business, Management and Economics
 
 ### Languages:
 
